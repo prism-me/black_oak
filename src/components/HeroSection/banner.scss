@@ -1,0 +1,88 @@
+.banner-section {
+  .subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.35em;
+    margin-bottom: 2rem;
+  }
+  .title {
+    font-weight: 700;
+    font-size: 70px;
+    background: linear-gradient(
+        47.06deg,
+        #000000 -3.87%,
+        rgba(255, 255, 255, 0) 36.89%
+      ),
+      #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+  }
+  ul {
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .registerbtn {
+    color: #ffffff;
+    background: transparent;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    margin-top: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    &:hover {
+      color: #fff;
+    }
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+    }
+  }
+  .formwraper {
+    background: rgba(0, 0, 0, 0.4);
+    // filter: blur(3px);
+    border-radius: 5px;
+    color: #fff;
+    padding: 1.5rem;
+    height: 100%;
+  }
+  .enquireform {
+    label {
+      margin-bottom: 0.5rem;
+    }
+    .form-control {
+      border-radius: 0;
+      height: calc(1.5em + 0.75rem + 2px);
+    }
+    .colspace {
+      padding-right: 2rem;
+    }
+    .enquire-btn {
+      color: #000000;
+      background: #fff;
+      font-weight: 600;
+      font-size: 16px;
+      border-radius: 0;
+      padding: 0.5rem 2rem;
+      border: 1px solid #fff;
+      margin-top: 2rem;
+      &:hover {
+        color: #fff;
+        background: transparent;
+      }
+      &:focus {
+        outline: 0;
+        box-shadow: none;
+        color: #fff;
+        background: transparent;
+      }
+    }
+  }
+}

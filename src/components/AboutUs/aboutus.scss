@@ -1,0 +1,46 @@
+.aboutus {
+  .numbstyle {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9b9b9b;
+  }
+  .icon-text {
+    h5 {
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: capitalize;
+      color: #3d3d3d;
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #535353;
+    }
+  }
+  .detailwrape {
+    padding: 0 2rem;
+  }
+
+  .arrow-indicator.owl-theme .owl-nav {
+    position: absolute;
+    left: 44%;
+    bottom: 3%;
+  }
+  .arrow-indicator.owl-theme .owl-nav [class*="owl-"] {
+    width: 40px;
+    height: 2px;
+    box-shadow: 0 0 0 1px #ffffff;
+    background: #ffffff;
+    border-radius: 0;
+    margin: 5px;
+  }
+  .arrow-indicator.owl-theme .owl-nav [class*="owl-"] span {
+    display: none;
+  }
+  .arrow-indicator.owl-theme .owl-nav [class*="owl-"]:hover {
+    background: #ffffff !important;
+    box-shadow: 0 0 0 1px #ffffff;
+  }
+}

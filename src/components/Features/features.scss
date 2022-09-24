@@ -1,0 +1,32 @@
+.featurewrape {
+  .title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #2d2d2d;
+  }
+  .subtite {
+    font-weight: 500;
+    font-size: 16px;
+    color: #535353;
+  }
+  .numbstyle {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #9b9b9b;
+  }
+  .icon-text {
+    h5 {
+      font-weight: 700;
+      font-size: 20px;
+      text-transform: capitalize;
+      color: #3d3d3d;
+    }
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      color: #535353;
+    }
+  }
+}
