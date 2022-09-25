@@ -198,7 +198,7 @@ td {
 
 body {
   background-color: #ffffff;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   font-size: 1rem;
   color: #707070;
   font-weight: 400;
@@ -215,7 +215,7 @@ h3,
 h4,
 h5 {
   margin: 0 0 1rem;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   font-weight: 600;
   line-height: 1.21;
   color: initial;
@@ -254,14 +254,14 @@ a {
 strong,
 b {
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 .badge {
   display: inline;
   padding: 0.25rem 0.5rem;
   font-size: 80%;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   line-height: 1;
   text-align: center;
   white-space: nowrap;
@@ -363,7 +363,7 @@ b {
 .solid-btn,
 .primary-solid-btn {
   padding: 10px 25px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 
 .primary-solid-btn {
@@ -412,7 +412,7 @@ b {
 .google-play-btn,
 .app-store-btn {
   padding: 12px 30px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   font-weight: 700;
 }
 .google-play-btn {
@@ -2092,7 +2092,7 @@ select.form-control.has-value {
 }
 .single-counter span {
   font-weight: bold;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   color: #9629e6;
   font-size: 25px;
   line-height: 28px;
@@ -2138,7 +2138,7 @@ select.form-control.has-value {
 
 .font-weight-bolder {
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 
 .pricing-header::after {
@@ -2197,7 +2197,7 @@ select.form-control.has-value {
 
 .accordion-faq.accordion > .card .card-header h6 {
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 .accordion-faq.accordion .card-header[aria-expanded="false"]:after {
   content: "+";
@@ -2213,7 +2213,7 @@ select.form-control.has-value {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   font-weight: 700;
 }
 
@@ -2784,7 +2784,7 @@ small {
   position: relative;
 }
 .login-signup-form .form-group label {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   font-weight: 500;
   font-size: 88%;
 }
@@ -2891,7 +2891,7 @@ small {
   margin-right: 0.7rem;
 }
 .single-blog-card a {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 .single-blog-card a,
 .single-blog-card a:hover {
@@ -2905,7 +2905,7 @@ a.detail-link {
   color: #495057;
   font-weight: 600;
   font-size: 13px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 
 a.detail-link span {
@@ -3135,7 +3135,7 @@ section {
   line-height: 33px;
   border-radius: 100%;
   padding: inherit;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   font-weight: 600;
 }
 .custom-pagination-nav ul li.page-item:first-child .page-link,
@@ -3183,7 +3183,7 @@ button,
 
 .widget .widget-title > h6 {
   text-transform: uppercase;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
   letter-spacing: 1px;
   font-weight: 600;
   font-size: 12px;
@@ -3244,7 +3244,7 @@ button,
   font-size: 9px !important;
   color: #757575;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Be Vietnam Regular", sans-serif;
 }
 .tag-cloud > a:hover,
 .post-tags > a:hover {
