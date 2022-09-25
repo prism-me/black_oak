@@ -35,7 +35,7 @@ class Banner extends React.Component {
                 </div>
               </div>
 
-              <div className="row">
+              <div className="row" id="register">
                 <div className="col-md-4">
                   <div className="formwraper">
                     <h3 className="lead text-white">

@@ -22,7 +22,7 @@ class Projects extends React.Component {
     return (
       <React.Fragment>
         <section
-          id="team"
+          id="projects"
           className="team-member-section projectsection ptb-50"
         >
           <div className="container">
