@@ -59,7 +59,7 @@ class Header extends React.Component {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#register">
+                    <a className="nav-link page-scroll" href="#contact">
                       Register
                     </a>
                   </li>
