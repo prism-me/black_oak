@@ -84,9 +84,11 @@ jQuery(function ($) {
     nav: true,
     dots: false,
     responsiveClass: true,
-    autoplay: false,
+    autoplay: true,
     autoplayHoverPause: true,
     lazyLoad: true,
+    slideTransition: "linear",
+    autoplaySpeed: 600,
   });
 
   // 6. project slider

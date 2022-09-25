@@ -34,9 +34,10 @@ class Features extends React.Component {
             <div className="row">
               <div className="col-md-7">
                 <img
-                  src="img/images/about.png"
+                  src="img/images/about.jpg"
                   alt="about us"
                   className="img-fluid"
+                  style={{ borderRadius: "6px" }}
                 />
               </div>
               <div className="col-md-5">

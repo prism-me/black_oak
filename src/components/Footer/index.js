@@ -48,9 +48,9 @@ class Footer extends React.Component {
                           Register
                         </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="/#">Privacy Policy</a>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

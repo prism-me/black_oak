@@ -15,22 +15,31 @@ class AboutUs extends React.Component {
   render() {
     const images = [
       {
-        img: "img/images/whychoose.png",
+        img: "img/images/whychoose1.jpg",
       },
       {
-        img: "img/images/whychoose.png",
+        img: "img/images/whychoose2.jpg",
       },
       {
-        img: "img/images/whychoose.png",
+        img: "img/images/whychoose3.jpg",
       },
       {
-        img: "img/images/whychoose.png",
+        img: "img/images/whychoose4.jpg",
       },
       {
-        img: "img/images/whychoose.png",
+        img: "img/images/whychoose5.jpg",
       },
       {
-        img: "img/images/whychoose.png",
+        img: "img/images/whychoose6.jpg",
+      },
+      {
+        img: "img/images/whychoose7.jpg",
+      },
+      {
+        img: "img/images/whychoose8.jpg",
+      },
+      {
+        img: "img/images/whychoose9.jpg",
       },
     ];
     return (
