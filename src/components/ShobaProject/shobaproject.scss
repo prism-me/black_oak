@@ -22,4 +22,26 @@
       color: #959595;
     }
   }
+  .enquire-btn {
+    color: #fff;
+    background: #bda588;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 0.7rem 2rem;
+    border: 1px solid #bda588;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    &:hover {
+      color: #bda588;
+      background: transparent;
+    }
+    &:focus {
+      outline: 0;
+      box-shadow: none;
+      color: #bda588;
+      background: transparent;
+    }
+  }
 }

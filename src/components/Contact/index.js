@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <React.Fragment>
         <section
-          id="contact"
+          id="register"
           className="contact-us contactsection ptb-50 "
           style={{
             backgroundImage: "url('img/images/enquirebg.jpg')",

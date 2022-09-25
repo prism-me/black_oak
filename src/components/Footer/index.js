@@ -31,16 +31,22 @@ class Footer extends React.Component {
                   <div className="footer-list-wrap">
                     <ul className="list-unstyled">
                       <li>
-                        <a href="/#">About Us</a>
+                        <a href="#about" className="page-scroll">
+                          About Us
+                        </a>
                       </li>
                       <li>
-                        <a href="/#">Projects</a>
+                        <a href="#projects" className="page-scroll">
+                          Projects
+                        </a>
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="/#">Contact Us</a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="/#">Register</a>
+                        <a href="#register" className="page-scroll">
+                          Register
+                        </a>
                       </li>
                       <li>
                         <a href="/#">Privacy Policy</a>
@@ -57,7 +63,7 @@ class Footer extends React.Component {
               <div className="row">
                 <div className="col-md-6 col-lg-6">
                   <p className="copyright-text pb-0 mb-0">
-                    © 2022 <a href="/#">BlackOak Real Estate</a>. All rights
+                    © 2022 <a href="/">BlackOak Real Estate</a>. All rights
                     reserved.
                   </p>
                 </div>
@@ -65,23 +71,30 @@ class Footer extends React.Component {
                   <div className="social-list-wrap">
                     <ul className="social-list list-inline list-unstyled">
                       <li className="list-inline-item">
-                        <a href="/#" target="_blank" title="Facebook">
+                        <a
+                          href="https://www.facebook.com/BlackOakRealEstate"
+                          target="_blank"
+                          title="Facebook"
+                        >
                           <span className="ti-facebook"></span>
                         </a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/#" target="_blank" title="Twitter">
-                          <span className="ti-twitter"></span>
+                        <a
+                          href="https://ae.linkedin.com/company/blackoak-real-estate"
+                          target="_blank"
+                          title="LinkedIn"
+                        >
+                          <span className="ti-linkedin"></span>
                         </a>
                       </li>
                       <li className="list-inline-item">
-                        <a href="/#" target="_blank" title="Instagram">
+                        <a
+                          href="https://www.instagram.com/blackoakdubai/"
+                          target="_blank"
+                          title="Instagram"
+                        >
                           <span className="ti-instagram"></span>
-                        </a>
-                      </li>
-                      <li className="list-inline-item">
-                        <a href="/#" target="_blank" title="printerst">
-                          <span className="ti-pinterest"></span>
                         </a>
                       </li>
                     </ul>

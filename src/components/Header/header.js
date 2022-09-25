@@ -53,13 +53,13 @@ class Header extends React.Component {
                       Projects
                     </a>
                   </li>
-                  <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#contact">
+                  {/* <li className="nav-item">
+                    <a className="nav-link page-scroll" href="#register">
                       Contact Us
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
-                    <a className="nav-link page-scroll" href="#contact">
+                    <a className="nav-link page-scroll" href="#register">
                       Register
                     </a>
                   </li>

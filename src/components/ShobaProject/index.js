@@ -63,6 +63,11 @@ export default class ShobaProject extends React.Component {
                 );
               })}
             </div>
+            <div className="text-center">
+              <a href="#register" className="btn enquire-btn page-scroll">
+                Contact us
+              </a>
+            </div>
           </div>
         </section>
       </React.Fragment>

@@ -26,7 +26,7 @@ class WhyChoose extends React.Component {
                   Live an inspired life amid contemporary sophistication within
                   the Sobha Hartland community
                 </p>
-                <a href="#contact" className="btn enquire-btn page-scroll">
+                <a href="#register" className="btn enquire-btn page-scroll">
                   ENQUIRE NOW
                 </a>
               </div>

@@ -16,6 +16,7 @@ class Banner extends React.Component {
     return (
       <React.Fragment>
         <section
+          // id="register"
           className="hero-section background-img banner-section"
           style={{
             backgroundImage: "url('img/images/banner.jpg')",
