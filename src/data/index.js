@@ -197,7 +197,29 @@ module.exports = {
       },
       {
         name: "Prime Views",
-        image: "img/images/project1.png",
+        image: "img/images/project4.png",
+      },
+    ],
+  },
+  otherprojects: {
+    projects: [
+      {
+        name: "S Tower",
+        price: "4850 sqft – 5050 sqft",
+        image: "img/images/property1.png",
+        category: "Apartments",
+      },
+      {
+        name: "Harrington House",
+        price: "382 - 1940 sq ft ",
+        image: "img/images/property2.png",
+        category: "Apartments",
+      },
+      {
+        name: "Port de la Mer",
+        price: "798 ft² - 2319 ft²",
+        image: "img/images/property3.png",
+        category: "Apartments",
       },
     ],
   },

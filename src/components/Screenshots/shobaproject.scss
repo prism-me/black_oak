@@ -1,0 +1,25 @@
+.shobaproject {
+  background: #f5f5f5;
+  .heading {
+    font-weight: 700;
+    font-size: 30px;
+    color: #2d2d2d;
+  }
+  .card {
+    background: transparent;
+    border: 0;
+    .card-body {
+      padding: 1.25rem 0;
+    }
+    .card-title {
+      font-weight: 700;
+      font-size: 20px;
+      color: #2d2d2d;
+    }
+    .card-text {
+      font-weight: 400;
+      font-size: 16px;
+      color: #959595;
+    }
+  }
+}

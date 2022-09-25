@@ -1,11 +1,11 @@
 import React from "react";
 import _data from "../../data";
 
-export default class Screenshots extends React.Component {
+export default class ShobaProject extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      price: {}
+      otherProjects: {},
     };
   }
 
@@ -13,9 +13,8 @@ export default class Screenshots extends React.Component {
     /**
      * Your ajax will goes here to get data then call setState
      */
-
     this.setState({
-      price: _data.price
+      otherProjects: _data.otherprojects,
     });
   }
 
@@ -24,33 +23,35 @@ export default class Screenshots extends React.Component {
       <React.Fragment>
         <section
           id="screenshots"
-          className="screenshots-section ptb-100 gray-light-bg"
+          className="screenshots-section shobaproject ptb-50"
         >
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-8">
-                <div className="section-heading text-center">
-                  <h2>
-                    App screenshots <br /> <span>Looks awesome</span>
-                  </h2>
-                  <p className="lead">
-                    Credibly synthesize multimedia based networks vis-a-vis
-                    top-line growth strategies. Continually leverage existing
-                    worldwide interfaces{" "}
-                  </p>
+                <div className="text-center mb-5">
+                  <h2 className="heading">Other Projects by Sobha</h2>
                 </div>
               </div>
             </div>
-            <div className="screen-slider-content mt-5">
-              <div className="screenshot-frame"></div>
-              <div className="screen-carousel owl-carousel owl-theme dot-indicator">
-                <img src="img/01.png" className="img-fluid" alt="screenshots" />
-                <img src="img/02.png" className="img-fluid" alt="screenshots" />
-                <img src="img/03.png" className="img-fluid" alt="screenshots" />
-                <img src="img/04.png" className="img-fluid" alt="screenshots" />
-                <img src="img/05.png" className="img-fluid" alt="screenshots" />
-                <img src="img/06.png" className="img-fluid" alt="screenshots" />
-              </div>
+            <div className="owl-carousel owl-theme other-project-carousel arrow-indicator">
+              {(this.state.otherProjects.projects || []).map((x, index) => {
+                return (
+                  <div className="item" key={index}>
+                    <div className="card">
+                      <img
+                        className="card-img-top"
+                        src={x.image}
+                        alt="Card image cap"
+                      />
+                      <div className="card-body">
+                        <h5 className="card-title">{x.name}</h5>
+                        <p className="card-text mb-0">{x.price}</p>
+                        <p className="card-text">{x.category}</p>
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>

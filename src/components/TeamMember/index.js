@@ -46,7 +46,7 @@ class TeamMember extends React.Component {
                         />
                       </div>
                       <div className="team-info text-white d-flex flex-column align-items-start justify-content-end p-3">
-                        <h5 className="mb-3">{member.name}</h5>
+                        <h5 className="mb-5">{member.name}</h5>
                       </div>
                     </div>
                   </div>

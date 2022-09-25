@@ -2460,16 +2460,9 @@ blockquote:before {
 
 /*our team css*/
 .single-team-member .team-info {
-  background-image: linear-gradient(
-    to right,
-    rgba(32, 40, 119, 0.85),
-    rgba(55, 46, 149, 0.9),
-    rgba(83, 49, 177, 0.85),
-    rgba(114, 48, 205, 0.8),
-    rgba(150, 41, 230, 0.8)
-  );
-  opacity: 0;
-  visibility: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  /* opacity: 0; */
+  /* visibility: hidden; */
   -webkit-transition: opacity 0.3s, visibility 0.3s;
   transition: opacity 0.3s, visibility 0.3s;
 }
@@ -2512,11 +2505,11 @@ blockquote:before {
     -webkit-transform 0.45s cubic-bezier(0.19, 1, 0.22, 1);
 }
 .single-team-member:hover .team-info {
-  opacity: 1;
-  visibility: visible;
+  /* opacity: 1; */
+  /* visibility: visible; */
 }
 .single-team-member:hover .team-info h6 {
-  opacity: 1;
+  /* opacity: 1; */
 }
 .single-team-member:hover .team-info h5,
 .single-team-member:hover .team-info h6,
