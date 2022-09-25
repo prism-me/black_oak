@@ -82,7 +82,7 @@ class FloorPlan extends Component {
                               Apartment Features
                             </p>
                             <div className="row ">
-                              <div className="col-md-3">
+                              <div className="col">
                                 <div className="text-center">
                                   <img
                                     src="img/images/icon1.png"
@@ -92,7 +92,7 @@ class FloorPlan extends Component {
                                   <h6 className="title">Landmark views</h6>
                                 </div>
                               </div>
-                              <div className="col-md-3">
+                              <div className="col">
                                 <div className="text-center">
                                   <img
                                     src="img/images/icon2.png"
@@ -102,7 +102,7 @@ class FloorPlan extends Component {
                                   <h6 className="title">Covered car parking</h6>
                                 </div>
                               </div>
-                              <div className="col-md-3">
+                              <div className="col">
                                 <div className="text-center">
                                   <img
                                     src="img/images/icon3.png"
@@ -114,7 +114,7 @@ class FloorPlan extends Component {
                                   </h6>
                                 </div>
                               </div>
-                              <div className="col-md-3">
+                              <div className="col">
                                 <div className="text-center">
                                   <img
                                     src="img/images/icon4.png"

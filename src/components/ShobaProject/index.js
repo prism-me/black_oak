@@ -1,13 +1,12 @@
 import React from "react";
 import _data from "../../data";
-// import { Rating } from "react-simple-star-rating";
+import ReactStars from "react-rating-stars-component";
 
 export default class ShobaProject extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       otherProjects: {},
-      rating: 0,
     };
   }
 
@@ -19,12 +18,6 @@ export default class ShobaProject extends React.Component {
       otherProjects: _data.otherprojects,
     });
   }
-
-  // handleRating = () => {
-  //   this.setState({
-  //     rating: 0,
-  //   });
-  // };
 
   render() {
     return (
@@ -46,17 +39,21 @@ export default class ShobaProject extends React.Component {
                 return (
                   <div className="item" key={index}>
                     <div className="card">
-                      <img
-                        className="card-img-top"
-                        src={x.image}
-                        alt="Card image cap"
-                      />
+                      <img className="card-img-top" src={x.img} alt="project" />
                       <div className="card-body">
-                        {/* <Rating
-                          onClick={this.handleRating}
-                          ratingValue={this.state.rating} 
-                          readonly={true}
-                        /> */}
+                        <ReactStars
+                          count={5}
+                          // onChange={() => { }}
+                          edit={false}
+                          size={24}
+                          isHalf={true}
+                          value={x.rating}
+                          emptyIcon={<i className="far fa-star"></i>}
+                          halfIcon={<i className="fa fa-star-half-alt"></i>}
+                          fullIcon={<i className="fa fa-star"></i>}
+                          activeColor="#F8B101"
+                          classNames="rating_bar"
+                        />
                         <h5 className="card-title">{x.name}</h5>
                         <p className="card-text mb-0">{x.price}</p>
                         <p className="card-text">{x.category}</p>

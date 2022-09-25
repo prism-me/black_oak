@@ -38,7 +38,7 @@ class AboutUs extends React.Component {
         <section id="about" className="about-us pb-50 aboutus">
           <div className="container-fluid">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <div className="owl-carousel owl-theme whychoose-slider arrow-indicator">
                   {(images || []).map((x, i) => {
                     return (
@@ -49,7 +49,7 @@ class AboutUs extends React.Component {
                   })}
                 </div>
               </div>
-              <div className="col-md-6 detailwrape">
+              <div className="col-lg-6 detailwrape">
                 <div className="d-flex align-items-start mb-4">
                   <div className="pr-4">
                     <span className="numbstyle mr-3">01</span>

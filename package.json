@@ -1,5 +1,5 @@
 {
-  "name": "appco",
+  "name": "BlackOak",
   "version": "0.1.0",
   "private": true,
   "homepage": "http://appco-react.themetags.com",
@@ -7,10 +7,12 @@
     "node-sass": "^4.14.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
+    "react-rating-stars-component": "^2.2.0",
     "react-redux": ">=5.0.7",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.1.1",
     "react-simple-star-rating": "^4.0.5",
+    "react-spinners": "^0.13.4",
     "redux": ">=4.0.0",
     "redux-devtools-extension": "^2.13.8"
   },
