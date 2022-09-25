@@ -1,5 +1,4 @@
 import React from "react";
-import { connect } from "react-redux";
 
 class Header extends React.Component {
   render() {
@@ -74,4 +73,4 @@ class Header extends React.Component {
   }
 }
 
-export default connect((state) => ({}))(Header);
+export default Header;

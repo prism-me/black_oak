@@ -27,6 +27,9 @@
     position: absolute;
     left: 44%;
     bottom: 3%;
+    @media (max-width: 767px) {
+      left: 40%;
+    }
   }
   .arrow-indicator.owl-theme .owl-nav [class*="owl-"] {
     width: 40px;

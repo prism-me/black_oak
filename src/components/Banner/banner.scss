@@ -1,4 +1,31 @@
-.contactsection {
+.banner-section {
+  .subtitle {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+    font-size: 25px;
+    letter-spacing: 0.35em;
+    margin-bottom: 2rem;
+    @media (max-width: 767px) {
+      font-size: 20px;
+    }
+  }
+  .title {
+    font-weight: 700;
+    font-size: 70px;
+    background: linear-gradient(
+        47.06deg,
+        #000000 -3.87%,
+        rgba(255, 255, 255, 0) 36.89%
+      ),
+      #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    @media (max-width: 767px) {
+      font-size: 50px;
+    }
+  }
   ul {
     font-weight: 400;
     font-size: 15px;

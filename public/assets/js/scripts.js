@@ -141,33 +141,6 @@ jQuery(function ($) {
     },
   });
 
-  // 6. Screenshots slider
-  $(".screen-carousel").owlCarousel({
-    loop: true,
-    margin: 0,
-    center: true,
-    dots: true,
-    nav: false,
-    autoplay: true,
-    responsive: {
-      0: {
-        items: 1,
-      },
-      768: {
-        items: 3,
-      },
-      991: {
-        items: 4,
-      },
-      1200: {
-        items: 4,
-      },
-      1920: {
-        items: 4,
-      },
-    },
-  });
-
   // 7. custom counter js with scrolling
   var isFirstTime = true;
   var interval = null;

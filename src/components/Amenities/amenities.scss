@@ -9,6 +9,9 @@
       font-weight: 400;
       font-size: 16px;
       color: #142d3f;
+      @media (max-width: 767px) {
+        margin-bottom: 1rem;
+      }
     }
     .detailWrape {
       .titlestyle {

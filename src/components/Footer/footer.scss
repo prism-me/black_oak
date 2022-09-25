@@ -18,6 +18,9 @@
     margin: 2rem 0;
     .list-unstyled {
       display: flex;
+      @media (max-width: 767px) {
+        display: block;
+      }
       li {
         margin-right: 2rem;
         a {
@@ -39,6 +42,9 @@
       font-weight: 400;
       color: #6d6d6d;
       font-size: 16px;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
       a {
         color: #6d6d6d;
         font-weight: 600;
@@ -50,6 +56,9 @@
     }
     .social-list-wrap {
       text-align: right;
+      @media (max-width: 767px) {
+        text-align: center;
+      }
       .list-inline-item {
         background: #51515136;
         border-radius: 100%;

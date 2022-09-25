@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 
 import Header from "../components/Header/header";
-import HeroSection from "../components/HeroSection/HeroSection5";
-import WhyChoose from "../components/PromoSection/WhyChoose";
-import AboutSection from "../components/AboutUs/AboutUs5";
-import FeatureSection from "../components/Features/Feature2";
-import Testimonial from "../components/Testimonial";
-import Screenshots from "../components/Screenshots";
-import TeamMember from "../components/TeamMember";
+import Banner from "../components/Banner";
+import WhyChoose from "../components/WhyChoose";
+import AboutSection from "../components/AboutUs";
+import Projects from "../components/Projects";
+import FloorPlan from "../components/FloorPlan";
+import Amenities from "../components/Amenities";
+import ShobaProject from "../components/ShobaProject";
+import FeatureSection from "../components/Features";
 import ContactSection from "../components/Contact";
 import FooterSection from "../components/Footer";
-import Amenities from "../components/Amenities";
 
 class Theme extends Component {
   render() {
@@ -18,13 +18,13 @@ class Theme extends Component {
       <React.Fragment>
         <Header />
         <div className="main">
-          <HeroSection />
+          <Banner />
           <WhyChoose />
           <AboutSection />
-          <TeamMember />
-          <Testimonial />
+          <Projects />
+          <FloorPlan />
           <Amenities />
-          <Screenshots />
+          <ShobaProject />
           <FeatureSection />
           <ContactSection />
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-class Feature extends React.Component {
+class Features extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
@@ -15,81 +15,111 @@ class Feature extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <section id="features" className="feature-section ptb-100">
+        <div id="features" className={"feature-section ptb-50 featurewrape"}>
           <div className="container">
-            <div className="row align-items-center justify-content-between">
-              <div className="col-md-4">
-                <div className="download-img d-flex align-bottom">
-                  <img
-                    src="img/image-14.png"
-                    alt="download"
-                    className="img-fluid"
-                  />
-                </div>
-              </div>
-              <div className="col-md-7">
-                <div className="feature-contents section-heading">
-                  <h2>
-                    Share your photos with <br />
-                    <span>friends easily</span>
-                  </h2>
-                  <p>
+            <div className="row justify-content-center">
+              <div className="col-md-8">
+                <div className="section-heading text-center mb-5">
+                  <h2 className="title">BlackOak Real Estate</h2>
+                  <p className="subtitle">
                     Objectively deliver professional value with diverse
                     web-readiness. Collaboratively transition wireless customer
                     service without goal-oriented catalysts for change.
                     Collaboratively.
                   </p>
-                  <p>
-                    Uniquely simplify sustainable applications whereas adaptive
-                    schemas. Competently brand performance based content and.
-                  </p>
+                </div>
+              </div>
+            </div>
 
-                  <ul className="list-inline mt-5">
-                    <li className="list-inline-item">
-                      <div className="mr-3 icon-box border">
-                        <img
-                          src="img/image-icon-2.png"
-                          alt="icon"
-                          className="img-fluid"
-                        />
+            <div className="row">
+              <div className="col-md-7">
+                <img
+                  src="img/images/about.png"
+                  alt="about us"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="col-md-5">
+                <div className="d-flex align-items-start mb-4">
+                  <div className="pr-4">
+                    <span className="numbstyle mr-3">01</span>
+                  </div>
+                  <div className="icon-text">
+                    <h5>High Quality Projects</h5>
+                    <p className="mb-0">
+                      We select only the best projects in the market to work
+                      with. We are selective in what we sell and choose to only
+                      work with a select number of high quality developers.
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-start mb-4">
+                  <div className="pr-4">
+                    <span className="numbstyle mr-3">02</span>
+                  </div>
+                  <div className="icon-text">
+                    <h5>Comprehensive Service</h5>
+                    <p className="mb-0">
+                      We provide a full service brokerage. We can support with
+                      the full spectrum of ancillary services such as mortgage
+                      advice, relocation assistance, visa, tax and legal.
+                    </p>
+                  </div>
+                </div>
+                <div className="d-flex align-items-start mb-4">
+                  <div className="pr-4">
+                    <span className="numbstyle mr-3">03</span>
+                  </div>
+                  <div className="icon-text">
+                    <h5>Investment Expertise</h5>
+                    <p className="mb-0">
+                      Our team is highly experienced in dealing with retail and
+                      institutional clients. We work with a number of
+                      institutional clients sourcing assets and projects.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="row">
+                  <div className="col-lg-4 col-md-6">
+                    <div className="d-flex align-items-start mb-4">
+                      <div className="pr-4">
+                        <span className="numbstyle mr-3">04</span>
                       </div>
-                    </li>
-                    <li className="list-inline-item">
-                      <div className="mr-3 icon-box border">
-                        <img
-                          src="img/image-icon-3.png"
-                          alt="icon"
-                          className="img-fluid"
-                        />
+                      <div className="icon-text">
+                        <h5>Technologically Advanced</h5>
+                        <p className="mb-0">
+                          We are a tech enabled agency adopting the latest
+                          technological trends backed by an AI driven marketing
+                          platform.
+                        </p>
                       </div>
-                    </li>
-                    <li className="list-inline-item">
-                      <div className="mr-3 icon-box border">
-                        <img
-                          src="img/image-icon-4.png"
-                          alt="icon"
-                          className="img-fluid"
-                        />
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-6">
+                    <div className="d-flex align-items-start mb-4">
+                      <div className="pr-4">
+                        <span className="numbstyle mr-3">05</span>
                       </div>
-                    </li>
-                    <li className="list-inline-item">
-                      <div className="mr-3 icon-box border">
-                        <img
-                          src="img/image-icon-1.png"
-                          alt="icon"
-                          className="img-fluid"
-                        />
+                      <div className="icon-text">
+                        <h5>Large Investor Network</h5>
+                        <p className="mb-0">
+                          We have a large private network of international
+                          investors. Our investor network gives us both access
+                          as well as reach for our real estate projects.
+                        </p>
                       </div>
-                    </li>
-                  </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+        </div>
       </React.Fragment>
     );
   }
 }
 
-export default Feature;
+export default Features;
