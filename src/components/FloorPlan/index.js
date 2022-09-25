@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
 
 const FloorPlan = ({ data, onChangeTab }) => {
   let propertyData = data.data.floorplan;
@@ -123,9 +125,10 @@ const FloorPlan = ({ data, onChangeTab }) => {
             </div>
           )}
 
-          <div className="owl-carousel owl-theme client-testimonial arrow-indicator">
+          {/* <div className="owl-carousel owl-theme client-testimonial arrow-indicator"> */}
+          <Carousel>
             {activePropertyData.data.slider.map((x, i) => (
-              <div className="item" key={i}>
+              <div key={i}>
                 <div className="row">
                   <div className="col-md-6">
                     <img src={x.img} alt="about us" className="img-fluid" />
@@ -160,7 +163,7 @@ const FloorPlan = ({ data, onChangeTab }) => {
                 </div>
               </div>
             ))}
-          </div>
+          </Carousel>
         </div>
       </section>
     </React.Fragment>
