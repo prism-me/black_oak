@@ -15,15 +15,6 @@ class AboutUs extends React.Component {
   render() {
     const images = [
       {
-        img: "img/images/whychoose1.jpg",
-      },
-      {
-        img: "img/images/whychoose2.jpg",
-      },
-      {
-        img: "img/images/whychoose3.jpg",
-      },
-      {
         img: "img/images/whychoose4.jpg",
       },
       {
@@ -38,9 +29,6 @@ class AboutUs extends React.Component {
       {
         img: "img/images/whychoose8.jpg",
       },
-      {
-        img: "img/images/whychoose9.jpg",
-      },
     ];
     return (
       <React.Fragment>
@@ -48,7 +36,7 @@ class AboutUs extends React.Component {
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6">
-                <div className="owl-carousel owl-theme whychoose-slider arrow-indicator">
+                <div className="owl-carousel owl-theme whychoose-slider dot-indicator">
                   {(images || []).map((x, i) => {
                     return (
                       <div className="item" key={i}>
