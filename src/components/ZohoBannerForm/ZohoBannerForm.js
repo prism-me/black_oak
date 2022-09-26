@@ -60,7 +60,10 @@ function ZohoBannerForm() {
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
-                  style={{ fontSize: "12px", fontFamily: "'Arial'" }}
+                  style={{
+                    fontSize: "14px",
+                    fontFamily: "'Be Vietnam Regular', sans-serif",
+                  }}
                 >
                   <label for="First_Name">
                     First Name <span style={{ color: "red" }}>*</span>
@@ -82,7 +85,10 @@ function ZohoBannerForm() {
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
-                  style={{ fontSize: "12px", fontFamily: "'Arial'" }}
+                  style={{
+                    fontSize: "14px",
+                    fontFamily: "'Be Vietnam Regular', sans-serif",
+                  }}
                 >
                   <label for="Last_Name">
                     Last Name <span style={{ color: "red" }}>*</span>
@@ -104,7 +110,10 @@ function ZohoBannerForm() {
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
-                  style={{ fontSize: "12px", fontFamily: "'Arial'" }}
+                  style={{
+                    fontSize: "14px",
+                    fontFamily: "'Be Vietnam Regular', sans-serif",
+                  }}
                 >
                   <label for="Country">
                     Country <span style={{ color: "red" }}>*</span>
@@ -126,7 +135,10 @@ function ZohoBannerForm() {
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
-                  style={{ fontSize: "12px", fontFamily: "'Arial'" }}
+                  style={{
+                    fontSize: "14px",
+                    fontFamily: "'Be Vietnam Regular', sans-serif",
+                  }}
                 >
                   <label for="Mobile">
                     Mobile <span style={{ color: "red" }}>*</span>
@@ -148,7 +160,10 @@ function ZohoBannerForm() {
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
-                  style={{ fontSize: "12px", fontFamily: "'Arial'" }}
+                  style={{
+                    fontSize: "14px",
+                    fontFamily: "'Be Vietnam Regular', sans-serif",
+                  }}
                 >
                   <label for="Email">
                     Email <span style={{ color: "red" }}>*</span>
