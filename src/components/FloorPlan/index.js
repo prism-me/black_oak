@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const FloorPlan = ({ data, onChangeTab }) => {
   let propertyData = data.data.floorplan;
@@ -14,6 +15,37 @@ const FloorPlan = ({ data, onChangeTab }) => {
     });
   };
 
+  function SampleNextArrow(props) {
+    const { onClick } = props;
+
+    return (
+      <i
+        className={`ti-angle-right nextarrow arrowdiv ${onClick && "active"}`}
+        onClick={onClick}
+      ></i>
+    );
+  }
+
+  function SamplePrevArrow(props) {
+    const { onClick } = props;
+    return (
+      <i
+        className={`ti-angle-left prevarrow arrowdiv ${onClick && "active"}`}
+        onClick={onClick}
+      ></i>
+    );
+  }
+
+  const settings = {
+    dots: false,
+    autoplay: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
+  };
   return (
     <React.Fragment>
       <section
@@ -125,8 +157,7 @@ const FloorPlan = ({ data, onChangeTab }) => {
             </div>
           )}
 
-          {/* <div className="owl-carousel owl-theme client-testimonial arrow-indicator"> */}
-          <Carousel>
+          <Slider {...settings}>
             {activePropertyData.data.slider.map((x, i) => (
               <div key={i}>
                 <div className="row">
@@ -163,7 +194,7 @@ const FloorPlan = ({ data, onChangeTab }) => {
                 </div>
               </div>
             ))}
-          </Carousel>
+          </Slider>
         </div>
       </section>
     </React.Fragment>
