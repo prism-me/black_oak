@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #071c35;
+  background-color: rgba(0, 0, 0, 0.8);
   color: #ffffff;
 }
 
@@ -22,8 +22,8 @@
 
 .btn-submit {
   border-radius: 0;
-  background-color: #071c35;
-  border-color: #071c35;
+  background-color: #bda588;
+  border-color: #bda588;
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
@@ -32,7 +32,6 @@
   margin-top: 2rem;
   display: block;
 }
-
 #webinar_register_container img {
   display: none;
 }
