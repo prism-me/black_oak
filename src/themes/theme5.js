@@ -35,7 +35,7 @@ const Theme = () => {
         <Projects />
         <FloorPlan data={activeTabData} onChangeTab={onChangeTab} />
         <Amenities />
-        <ShobaProject />
+        {/* <ShobaProject /> */}
         <FeatureSection />
         <ContactSection />
       </div>

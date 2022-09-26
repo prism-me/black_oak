@@ -46,5 +46,9 @@
   }
   .lazy-load-image-background.blur.lazy-load-image-loaded {
     width: 100%;
+    height: 570px;
+    @media (max-width: 1260px) {
+      height: 100%;
+    }
   }
 }
