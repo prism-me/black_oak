@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 class Features extends React.Component {
   constructor(props) {
@@ -33,11 +35,19 @@ class Features extends React.Component {
 
             <div className="row">
               <div className="col-md-7">
-                <img
+                {/* <img
                   src="img/images/about.jpg"
                   alt="about us"
                   className="img-fluid"
                   style={{ borderRadius: "6px" }}
+                /> */}
+                <LazyLoadImage
+                  placeholderSrc="img/images/about.jpg"
+                  effect="blur"
+                  alt="about us"
+                  className="img-fluid"
+                  style={{ borderRadius: "6px" }}
+                  src="img/images/about.jpg"
                 />
               </div>
               <div className="col-md-5">

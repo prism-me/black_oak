@@ -1,5 +1,7 @@
 import React from "react";
 import _data from "../../data";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 class Projects extends React.Component {
   constructor(props) {
@@ -40,10 +42,17 @@ class Projects extends React.Component {
                     <div className="item" key={index}>
                       <div className="single-team-member position-relative">
                         <div className="team-image">
-                          <img
+                          {/* <img
                             src={member.image}
-                            alt="Team Members"
+                            alt="project"
                             className="img-fluid"
+                          /> */}
+                          <LazyLoadImage
+                            placeholderSrc={member.image}
+                            effect="blur"
+                            alt="project"
+                            className="img-fluid"
+                            src={member.image}
                           />
                         </div>
                         <div className="team-info text-white d-flex flex-column align-items-start justify-content-end p-3">

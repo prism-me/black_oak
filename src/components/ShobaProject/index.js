@@ -1,6 +1,8 @@
 import React from "react";
 import _data from "../../data";
 import ReactStars from "react-rating-stars-component";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default class ShobaProject extends React.Component {
   constructor(props) {
@@ -39,7 +41,14 @@ export default class ShobaProject extends React.Component {
                 return (
                   <div className="item" key={index}>
                     <div className="card">
-                      <img className="card-img-top" src={x.img} alt="project" />
+                      {/* <img className="card-img-top" src={x.img} alt="project" /> */}
+                      <LazyLoadImage
+                        placeholderSrc={x.img}
+                        effect="blur"
+                        alt="project"
+                        className="card-img-top"
+                        src={x.img}
+                      />
                       <div className="card-body">
                         <ReactStars
                           count={5}

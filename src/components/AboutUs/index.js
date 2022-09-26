@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 class AboutUs extends React.Component {
   constructor(props) {
@@ -40,7 +42,14 @@ class AboutUs extends React.Component {
                   {(images || []).map((x, i) => {
                     return (
                       <div className="item" key={i}>
-                        <img src={x.img} alt="about us" className="img-fluid" />
+                        {/* <img src={x.img} alt="about us" className="img-fluid" /> */}
+                        <LazyLoadImage
+                          placeholderSrc={x.img}
+                          effect="blur"
+                          alt="about us"
+                          className="img-fluid"
+                          src={x.img}
+                        />
                       </div>
                     );
                   })}

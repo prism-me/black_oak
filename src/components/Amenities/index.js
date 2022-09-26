@@ -1,4 +1,6 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 class Amenities extends React.Component {
   constructor(props) {
@@ -39,50 +41,85 @@ class Amenities extends React.Component {
                 <div className="row">
                   <div className="col divwraper">
                     <div className="text-center">
-                      <img
+                      {/* <img
                         src="img/images/pool.png"
                         alt="icon"
                         className="img-fluid"
+                      /> */}
+                      <LazyLoadImage
+                        placeholderSrc="img/images/pool.png"
+                        effect="blur"
+                        alt="icon"
+                        className="img-fluid"
+                        src="img/images/pool.png"
                       />
                       <h6 className="title">Pools</h6>
                     </div>
                   </div>
                   <div className="col divwraper">
                     <div className="text-center">
-                      <img
+                      {/* <img
                         src="img/images/gym.png"
                         alt="icon"
                         className="img-fluid"
+                      /> */}
+                      <LazyLoadImage
+                        placeholderSrc="img/images/gym.png"
+                        effect="blur"
+                        alt="icon"
+                        className="img-fluid"
+                        src="img/images/gym.png"
                       />
                       <h6 className="title">Gym</h6>
                     </div>
                   </div>
                   <div className="col divwraper">
                     <div className="text-center">
-                      <img
+                      {/* <img
                         src="img/images/restraunt.png"
                         alt="icon"
                         className="img-fluid"
+                      /> */}
+                      <LazyLoadImage
+                        placeholderSrc="img/images/restraunt.png"
+                        effect="blur"
+                        alt="icon"
+                        className="img-fluid"
+                        src="img/images/restraunt.png"
                       />
                       <h6 className="title">Restaurants</h6>
                     </div>
                   </div>
                   <div className="col divwraper">
                     <div className="text-center">
-                      <img
+                      {/* <img
                         src="img/images/walk.png"
                         alt="icon"
                         className="img-fluid"
+                      /> */}
+                      <LazyLoadImage
+                        placeholderSrc="img/images/walk.png"
+                        effect="blur"
+                        alt="icon"
+                        className="img-fluid"
+                        src="img/images/walk.png"
                       />
                       <h6 className="title">Play Areas</h6>
                     </div>
                   </div>
                   <div className="col divwraper">
                     <div className="text-center">
-                      <img
+                      {/* <img
                         src="img/images/cart.png"
                         alt="icon"
                         className="img-fluid"
+                      /> */}
+                      <LazyLoadImage
+                        placeholderSrc="img/images/cart.png"
+                        effect="blur"
+                        alt="icon"
+                        className="img-fluid"
+                        src="img/images/cart.png"
                       />
                       <h6 className="title">Retail Outlets</h6>
                     </div>

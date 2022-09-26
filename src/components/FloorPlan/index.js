@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 const FloorPlan = ({ data, onChangeTab }) => {
   let propertyData = data.data.floorplan;
@@ -162,7 +164,14 @@ const FloorPlan = ({ data, onChangeTab }) => {
               <div key={i}>
                 <div className="row">
                   <div className="col-md-6">
-                    <img src={x.img} alt="about us" className="img-fluid" />
+                    {/* <img src={x.img} alt="about us" className="img-fluid" /> */}
+                    <LazyLoadImage
+                      placeholderSrc={x.img}
+                      effect="blur"
+                      alt="about us"
+                      className="img-fluid"
+                      src={x.img}
+                    />
                   </div>
                   <div className="col-md-6">
                     <div className="detail-wrap mb-3">
@@ -178,10 +187,17 @@ const FloorPlan = ({ data, onChangeTab }) => {
                           {x.features.map((a, index) => (
                             <div className="col" key={index}>
                               <div className="text-center">
-                                <img
+                                {/* <img
                                   src={a.img}
                                   alt="icon"
                                   className="img-fluid"
+                                /> */}
+                                <LazyLoadImage
+                                  placeholderSrc={a.img}
+                                  effect="blur"
+                                  alt="icon"
+                                  className="img-fluid"
+                                  src={a.img}
                                 />
                                 <h6 className="title">{a.name}</h6>
                               </div>
