@@ -35,7 +35,7 @@ class Projects extends React.Component {
                 </div>
               </div>
             </div>
-            <div className="owl-carousel owl-theme project-carousel arrow-indicator">
+            <div className="owl-carousel owl-theme project-carousel arrow-indicator px-5">
               {(this.state.projectsSlider.projects || []).map(
                 (member, index) => {
                   return (
@@ -52,6 +52,7 @@ class Projects extends React.Component {
                             effect="blur"
                             alt="project"
                             className="img-fluid"
+                            style={{ borderRadius: "100%" }}
                             src={member.image}
                           />
                         </div>
