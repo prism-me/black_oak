@@ -26,9 +26,7 @@ class Contact extends Component {
                     <li>• Opulent design with high-rise twin-towers</li>
                     <li>• Price starting at only AED 1.22M</li>
                   </ul>
-                  <button className="btn registerbtn">
-                    Register Your Interest{">"}
-                  </button>
+                  <p className="regstertitle">Register Your Interest{">"}</p>
                 </div>
               </div>
               <div className="col-md-8">
