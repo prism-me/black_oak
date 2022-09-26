@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ZohoBannerForm from "../ZohoBannerForm/ZohoBannerForm";
 
 class Contact extends Component {
   render() {
@@ -32,46 +33,7 @@ class Contact extends Component {
               </div>
               <div className="col-md-8">
                 <div className="formwraper">
-                  <form className="enquireform">
-                    <div className="form-row">
-                      <div className="form-group col-md-6 colspace">
-                        <label for="name">First Name*</label>
-                        <input type="text" className="form-control" id="name" />
-                      </div>
-                      <div className="form-group col-md-6">
-                        <label for="name">Last Name*</label>
-                        <input type="text" className="form-control" id="name" />
-                      </div>
-                      <div className="form-group col-md-6 colspace">
-                        <label for="country">Country*</label>
-                        <select className="form-control" id="country" required>
-                          <option>Dubai</option>
-                          <option>Pakistan</option>
-                          <option>India</option>
-                        </select>
-                      </div>
-                      <div className="form-group col-md-6">
-                        <label for="email">Email*</label>
-                        <input
-                          type="email"
-                          className="form-control"
-                          id="email"
-                          required
-                        />
-                      </div>
-                      <div className="form-group col-md-6 colspace">
-                        <label for="phone">Mobile Number*</label>
-                        <input
-                          type="text"
-                          className="form-control"
-                          id="phone"
-                        />
-                      </div>
-                      <div className="form-group col-md-6">
-                        <button className="btn enquire-btn">ENQUIRE NOW</button>
-                      </div>
-                    </div>
-                  </form>
+                  <ZohoBannerForm />
                 </div>
               </div>
             </div>

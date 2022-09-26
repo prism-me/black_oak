@@ -39,14 +39,14 @@ class Features extends React.Component {
                   src="img/images/about.jpg"
                   alt="about us"
                   className="img-fluid"
-                  style={{ borderRadius: "6px" }}
+                  style={{ borderRadius: "10px" }}
                 /> */}
                 <LazyLoadImage
                   placeholderSrc="img/images/about.jpg"
                   effect="blur"
                   alt="about us"
                   className="img-fluid"
-                  style={{ borderRadius: "6px" }}
+                  style={{ borderRadius: "10px" }}
                   src="img/images/about.jpg"
                 />
               </div>

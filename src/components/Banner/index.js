@@ -1,5 +1,5 @@
 import React from "react";
-
+import ZohoBannerForm from "../ZohoBannerForm/ZohoBannerForm";
 class Banner extends React.Component {
   constructor(props) {
     super(props);
@@ -55,7 +55,8 @@ class Banner extends React.Component {
                 </div>
                 <div className="col-md-8">
                   <div className="formwraper">
-                    <form className="enquireform">
+                    <ZohoBannerForm />
+                    {/* <form className="enquireform">
                       <div className="form-row">
                         <div className="form-group col-md-6 colspace">
                           <label for="name">First Name*</label>
@@ -108,7 +109,7 @@ class Banner extends React.Component {
                           </button>
                         </div>
                       </div>
-                    </form>
+                    </form> */}
                   </div>
                 </div>
               </div>
