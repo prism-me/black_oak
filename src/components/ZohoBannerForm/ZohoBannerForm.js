@@ -46,7 +46,7 @@ function ZohoBannerForm() {
             type="text"
             style={{ display: "none" }}
             name="returnURL"
-            value="https&#x3a;&#x2f;&#x2f;black-oak.prismcloudhosting.com&#x2f;"
+            value="https://black-oak.prismcloudhosting.com/thankyou.html"
           />
 
           <div
@@ -62,7 +62,9 @@ function ZohoBannerForm() {
                   class="zcwf_col_lab"
                   style={{ fontSize: "12px", fontFamily: "'Arial'" }}
                 >
-                  <label for="First_Name">First Name</label>
+                  <label for="First_Name">
+                    First Name <span style={{ color: "red" }}>*</span>
+                  </label>
                 </div>
                 <div class="zcwf_col_fld">
                   <input
@@ -70,6 +72,7 @@ function ZohoBannerForm() {
                     id="First_Name"
                     name="First Name"
                     maxlength="40"
+                    required
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
@@ -82,7 +85,7 @@ function ZohoBannerForm() {
                   style={{ fontSize: "12px", fontFamily: "'Arial'" }}
                 >
                   <label for="Last_Name">
-                    Last Name<span style={{ color: "red" }}>*</span>
+                    Last Name <span style={{ color: "red" }}>*</span>
                   </label>
                 </div>
                 <div class="zcwf_col_fld">
@@ -91,6 +94,7 @@ function ZohoBannerForm() {
                     id="Last_Name"
                     name="Last Name"
                     maxlength="80"
+                    required
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
@@ -102,7 +106,9 @@ function ZohoBannerForm() {
                   class="zcwf_col_lab"
                   style={{ fontSize: "12px", fontFamily: "'Arial'" }}
                 >
-                  <label for="Country">Country</label>
+                  <label for="Country">
+                    Country <span style={{ color: "red" }}>*</span>
+                  </label>
                 </div>
                 <div class="zcwf_col_fld">
                   <input
@@ -110,6 +116,7 @@ function ZohoBannerForm() {
                     id="Country"
                     name="Country"
                     maxlength="100"
+                    required
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
@@ -121,7 +128,9 @@ function ZohoBannerForm() {
                   class="zcwf_col_lab"
                   style={{ fontSize: "12px", fontFamily: "'Arial'" }}
                 >
-                  <label for="Mobile">Mobile</label>
+                  <label for="Mobile">
+                    Mobile <span style={{ color: "red" }}>*</span>
+                  </label>
                 </div>
                 <div class="zcwf_col_fld">
                   <input
@@ -129,6 +138,7 @@ function ZohoBannerForm() {
                     id="Mobile"
                     name="Mobile"
                     maxlength="30"
+                    required
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
@@ -140,7 +150,9 @@ function ZohoBannerForm() {
                   class="zcwf_col_lab"
                   style={{ fontSize: "12px", fontFamily: "'Arial'" }}
                 >
-                  <label for="Email">Email</label>
+                  <label for="Email">
+                    Email <span style={{ color: "red" }}>*</span>
+                  </label>
                 </div>
                 <div class="zcwf_col_fld">
                   <input
@@ -149,6 +161,7 @@ function ZohoBannerForm() {
                     id="Email"
                     name="Email"
                     maxlength="100"
+                    required
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
