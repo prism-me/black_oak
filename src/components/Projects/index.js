@@ -52,7 +52,6 @@ class Projects extends React.Component {
                             effect="blur"
                             alt="project"
                             className="img-fluid"
-                            style={{ borderRadius: "100%" }}
                             src={member.image}
                           />
                         </div>
