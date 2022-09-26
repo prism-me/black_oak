@@ -17,7 +17,7 @@ class Features extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <div id="features" className={"feature-section ptb-50 featurewrape"}>
+        <div id="features" className={"feature-section pb-50 featurewrape"}>
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-md-8">
