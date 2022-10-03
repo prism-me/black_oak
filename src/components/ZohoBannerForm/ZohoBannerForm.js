@@ -46,7 +46,7 @@ function ZohoBannerForm() {
             type="text"
             style={{ display: "none" }}
             name="returnURL"
-            value="https://black-oak.prismcloudhosting.com/thankyou.html"
+            value="https://offplan.blackoak-re.com/thankyou.html"
           />
 
           <div
@@ -106,7 +106,10 @@ function ZohoBannerForm() {
                 </div>
               </div>
             </div>
-            <div className="form-group col-md-6 colspace">
+            <div
+              className="form-group col-md-6 colspace"
+              style={{ display: "none" }}
+            >
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
@@ -125,7 +128,6 @@ function ZohoBannerForm() {
                     id="Country"
                     name="Country"
                     maxlength="100"
-                    required
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
