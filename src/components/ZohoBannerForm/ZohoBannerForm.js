@@ -5,7 +5,7 @@ function ZohoBannerForm() {
     <>
       <div
         id="crmWebToEntityForm"
-        class="zcwf_lblLeft crmWebToEntityForm"
+        className="zcwf_lblLeft crmWebToEntityForm"
         style={{
           backgroundColor: "transparent",
           color: "#fff",
@@ -18,10 +18,10 @@ function ZohoBannerForm() {
         {/* <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'> */}
         <form
           action="https://crm.zoho.com/crm/WebToLeadForm"
-          name={`WebToLeads5489955000000387530`}
+          name="WebToLeads5489955000000387530"
           method="POST"
           onSubmit='javascript:document.charset="UTF-8"; return checkMandatory5489955000000387530()'
-          accept-charset="UTF-8"
+          acceptCharset="UTF-8"
         >
           <input
             type="text"
@@ -50,141 +50,149 @@ function ZohoBannerForm() {
           />
 
           <div
-            class="zcwf_title"
+            className="zcwf_title"
             style={{ maxWidth: "600px", color: "#fff", display: "none" }}
           >
             Contact Us
           </div>
           <div className="form-row">
             <div className="form-group col-md-6 colspace">
-              <div class="zcwf_row">
+              <div className="zcwf_row">
                 <div
-                  class="zcwf_col_lab"
+                  className="zcwf_col_lab"
                   style={{
                     fontSize: "14px",
                     fontFamily: "'Be Vietnam Regular', sans-serif",
                   }}
                 >
-                  <label for="First_Name">
+                  <label htmlFor="First_Name">
                     First Name <span style={{ color: "red" }}>*</span>
                   </label>
                 </div>
-                <div class="zcwf_col_fld">
+                <div className="zcwf_col_fld">
                   <input
                     type="text"
                     id="First_Name"
                     name="First Name"
-                    maxlength="40"
+                    maxLength="40"
                     required
                   ></input>
-                  <div class="zcwf_col_help"></div>
+                  <div className="zcwf_col_help"></div>
                 </div>
               </div>
             </div>
             <div className="form-group col-md-6">
-              <div class="zcwf_row">
+              <div className="zcwf_row">
                 <div
-                  class="zcwf_col_lab"
+                  className="zcwf_col_lab"
                   style={{
                     fontSize: "14px",
                     fontFamily: "'Be Vietnam Regular', sans-serif",
                   }}
                 >
-                  <label for="Last_Name">
+                  <label htmlFor="Last_Name">
                     Last Name <span style={{ color: "red" }}>*</span>
                   </label>
                 </div>
-                <div class="zcwf_col_fld">
+                <div className="zcwf_col_fld">
                   <input
                     type="text"
                     id="Last_Name"
                     name="Last Name"
-                    maxlength="80"
+                    maxLength="80"
                     required
                   ></input>
-                  <div class="zcwf_col_help"></div>
+                  <div className="zcwf_col_help"></div>
                 </div>
               </div>
             </div>
             <div className="form-group col-md-6 colspace">
-              <div class="zcwf_row">
+              <div className="zcwf_row">
                 <div
-                  class="zcwf_col_lab"
+                  className="zcwf_col_lab"
                   style={{
                     fontSize: "14px",
                     fontFamily: "'Be Vietnam Regular', sans-serif",
                   }}
                 >
-                  <label for="Mobile">
+                  <label htmlFor="Mobile">
                     Mobile <span style={{ color: "red" }}>*</span>
                   </label>
                 </div>
-                <div class="zcwf_col_fld">
+                <div className="zcwf_col_fld">
+                  <input
+                    type="text"
+                    name="phone"
+                    value="+971"
+                    readOnly
+                    style={{ width: "20%" }}
+                  />
                   <input
                     type="text"
                     id="Mobile"
                     name="Mobile"
-                    maxlength="30"
+                    maxLength="9"
+                    minLength="9"
                     required
+                    placeholder="57xxxxxxx"
                     onKeyPress={(event) => {
                       if (!/[0-9]/.test(event.key)) {
                         event.preventDefault();
                       }
                     }}
+                    style={{ width: "80%" }}
                   ></input>
-                  <div class="zcwf_col_help"></div>
+                  <div className="zcwf_col_help"></div>
                 </div>
               </div>
             </div>
             <div className="form-group col-md-6">
-              <div class="zcwf_row">
+              <div className="zcwf_row">
                 <div
-                  class="zcwf_col_lab"
+                  className="zcwf_col_lab"
                   style={{
                     fontSize: "14px",
                     fontFamily: "'Be Vietnam Regular', sans-serif",
                   }}
                 >
-                  <label for="Email">
+                  <label htmlFor="Email">
                     Email <span style={{ color: "red" }}>*</span>
                   </label>
                 </div>
-                <div class="zcwf_col_fld">
+                <div className="zcwf_col_fld">
                   <input
                     type="email"
                     ftype="email"
                     id="Email"
                     name="Email"
-                    maxlength="100"
+                    maxLength="100"
                     required
                   ></input>
-                  <div class="zcwf_col_help"></div>
+                  <div className="zcwf_col_help"></div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="zcwf_row wfrm_fld_dpNn">
+          <div className="zcwf_row wfrm_fld_dpNn">
             <div
-              class="zcwf_col_lab"
+              className="zcwf_col_lab"
               style={{
                 fontSize: "14px",
                 fontFamily: "'Be Vietnam Regular', sans-serif",
               }}
             >
-              <label for="Lead_Source">Lead Source</label>
+              <label htmlFor="Lead_Source">Lead Source</label>
             </div>
-            <div class="zcwf_col_fld">
+            <div className="zcwf_col_fld">
               <select
-                class="zcwf_col_fld_slt"
+                className="zcwf_col_fld_slt"
                 id="Lead_Source"
                 name="Lead Source"
+                value="Creek&#x20;Vista&#x20;Heights&#x20;Landing&#x20;Page"
               >
                 <option value="-None-">-None-</option>
                 <option value="Advertisement">Advertisement</option>
-                <option
-                  selected
-                  value="Creek&#x20;Vista&#x20;Heights&#x20;Landing&#x20;Page"
-                >
+                <option value="Creek&#x20;Vista&#x20;Heights&#x20;Landing&#x20;Page">
                   Creek Vista Heights Landing Page
                 </option>
                 <option value="Cold&#x20;Call">Cold Call</option>
@@ -210,23 +218,23 @@ function ZohoBannerForm() {
                 <option value="Web&#x20;Research">Web Research</option>
                 <option value="Chat">Chat</option>
               </select>
-              <div class="zcwf_col_help"></div>
+              <div className="zcwf_col_help"></div>
             </div>
           </div>
 
-          <div class="zcwf_row">
-            <div class="zcwf_col_lab"></div>
-            <div class="zcwf_col_fld">
+          <div className="zcwf_row">
+            <div className="zcwf_col_lab"></div>
+            <div className="zcwf_col_fld">
               <input
                 type="submit"
                 id="formsubmit"
-                class="formsubmit zcwf_button"
+                className="formsubmit zcwf_button"
                 value="ENQUIRE&#x20;NOW"
                 title="ENQUIRE&#x20;NOW"
               />
               <input
                 type="reset"
-                class="zcwf_button"
+                className="zcwf_button"
                 name="reset"
                 value="Reset"
                 title="Reset"
