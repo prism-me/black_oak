@@ -41,12 +41,12 @@ function ZohoBannerForm() {
             style={{ display: "none" }}
             name="actionType"
             value="TGVhZHM="
-          />
+          ></input>
           <input
             type="text"
             style={{ display: "none" }}
             name="returnURL"
-            value="https://offplan.blackoak-re.com/thankyou.html"
+            value="https&#x3a;&#x2f;&#x2f;offplan.blackoak-re.com&#x2f;thankyou.html"
           />
 
           <div
@@ -106,34 +106,7 @@ function ZohoBannerForm() {
                 </div>
               </div>
             </div>
-            <div
-              className="form-group col-md-6 colspace"
-              style={{ display: "none" }}
-            >
-              <div class="zcwf_row">
-                <div
-                  class="zcwf_col_lab"
-                  style={{
-                    fontSize: "14px",
-                    fontFamily: "'Be Vietnam Regular', sans-serif",
-                  }}
-                >
-                  <label for="Country">
-                    Country <span style={{ color: "red" }}>*</span>
-                  </label>
-                </div>
-                <div class="zcwf_col_fld">
-                  <input
-                    type="text"
-                    id="Country"
-                    name="Country"
-                    maxlength="100"
-                  ></input>
-                  <div class="zcwf_col_help"></div>
-                </div>
-              </div>
-            </div>
-            <div className="form-group col-md-6">
+            <div className="form-group col-md-6 colspace">
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
@@ -153,12 +126,17 @@ function ZohoBannerForm() {
                     name="Mobile"
                     maxlength="30"
                     required
+                    onKeyPress={(event) => {
+                      if (!/[0-9]/.test(event.key)) {
+                        event.preventDefault();
+                      }
+                    }}
                   ></input>
                   <div class="zcwf_col_help"></div>
                 </div>
               </div>
             </div>
-            <div className="form-group col-md-6 colspace">
+            <div className="form-group col-md-6">
               <div class="zcwf_row">
                 <div
                   class="zcwf_col_lab"
@@ -173,7 +151,7 @@ function ZohoBannerForm() {
                 </div>
                 <div class="zcwf_col_fld">
                   <input
-                    type="text"
+                    type="email"
                     ftype="email"
                     id="Email"
                     name="Email"
@@ -184,26 +162,75 @@ function ZohoBannerForm() {
                 </div>
               </div>
             </div>
-            <div className="form-group col-md-6">
-              <div class="zcwf_row">
-                <div class="zcwf_col_lab"></div>
-                <div class="zcwf_col_fld">
-                  <input
-                    type="submit"
-                    id="formsubmit"
-                    class="formsubmit zcwf_button"
-                    value="ENQUIRE&#x20;NOW"
-                    title="ENQUIRE&#x20;NOW"
-                  />
-                  <input
-                    type="reset"
-                    class="zcwf_button"
-                    name="reset"
-                    value="Reset"
-                    title="Reset"
-                  />
-                </div>
-              </div>
+          </div>
+          <div class="zcwf_row wfrm_fld_dpNn">
+            <div
+              class="zcwf_col_lab"
+              style={{
+                fontSize: "14px",
+                fontFamily: "'Be Vietnam Regular', sans-serif",
+              }}
+            >
+              <label for="Lead_Source">Lead Source</label>
+            </div>
+            <div class="zcwf_col_fld">
+              <select
+                class="zcwf_col_fld_slt"
+                id="Lead_Source"
+                name="Lead Source"
+              >
+                <option value="-None-">-None-</option>
+                <option value="Advertisement">Advertisement</option>
+                <option
+                  selected
+                  value="Creek&#x20;Vista&#x20;Heights&#x20;Landing&#x20;Page"
+                >
+                  Creek Vista Heights Landing Page
+                </option>
+                <option value="Cold&#x20;Call">Cold Call</option>
+                <option value="Employee&#x20;Referral">
+                  Employee Referral
+                </option>
+                <option value="External&#x20;Referral">
+                  External Referral
+                </option>
+                <option value="Online&#x20;Store">Online Store</option>
+                <option value="Twitter">Twitter</option>
+                <option value="Facebook">Facebook</option>
+                <option value="Google&#x2b;">Google&#x2b;</option>
+                <option value="Partner">Partner</option>
+                <option value="Public&#x20;Relations">Public Relations</option>
+                <option value="Sales&#x20;Email&#x20;Alias">
+                  Sales Email Alias
+                </option>
+                <option value="Seminar&#x20;Partner">Seminar Partner</option>
+                <option value="Internal&#x20;Seminar">Internal Seminar</option>
+                <option value="Trade&#x20;Show">Trade Show</option>
+                <option value="Web&#x20;Download">Web Download</option>
+                <option value="Web&#x20;Research">Web Research</option>
+                <option value="Chat">Chat</option>
+              </select>
+              <div class="zcwf_col_help"></div>
+            </div>
+          </div>
+
+          <div class="zcwf_row">
+            <div class="zcwf_col_lab"></div>
+            <div class="zcwf_col_fld">
+              <input
+                type="submit"
+                id="formsubmit"
+                class="formsubmit zcwf_button"
+                value="ENQUIRE&#x20;NOW"
+                title="ENQUIRE&#x20;NOW"
+              />
+              <input
+                type="reset"
+                class="zcwf_button"
+                name="reset"
+                value="Reset"
+                title="Reset"
+              />
             </div>
           </div>
         </form>
