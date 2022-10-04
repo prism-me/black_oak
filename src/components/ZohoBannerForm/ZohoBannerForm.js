@@ -75,7 +75,7 @@ function ZohoBannerForm() {
                     id="First_Name"
                     name="First Name"
                     maxLength="40"
-                    required
+                    // required
                   ></input>
                   <div className="zcwf_col_help"></div>
                 </div>
@@ -100,7 +100,7 @@ function ZohoBannerForm() {
                     id="Last_Name"
                     name="Last Name"
                     maxLength="80"
-                    required
+                    // required
                   ></input>
                   <div className="zcwf_col_help"></div>
                 </div>
@@ -133,7 +133,7 @@ function ZohoBannerForm() {
                     name="Mobile"
                     maxLength="9"
                     minLength="9"
-                    required
+                    // required
                     placeholder="57xxxxxxx"
                     onKeyPress={(event) => {
                       if (!/[0-9]/.test(event.key)) {
@@ -161,12 +161,12 @@ function ZohoBannerForm() {
                 </div>
                 <div className="zcwf_col_fld">
                   <input
-                    type="email"
+                    type="text"
                     ftype="email"
                     id="Email"
                     name="Email"
                     maxLength="100"
-                    required
+                    // required
                   ></input>
                   <div className="zcwf_col_help"></div>
                 </div>
