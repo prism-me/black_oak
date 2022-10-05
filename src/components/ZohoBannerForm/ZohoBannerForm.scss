@@ -8,6 +8,16 @@ body {
   margin: 0 auto;
   box-sizing: border-box;
 }
+
+.phone-wrap {
+  display: flex;
+}
+.phone-wrap .mobile_number_prefix {
+  width: 20% !important;
+  border-right: 0px !important;
+  border-color: #ccc !important;
+}
+
 #crmWebToEntityForm.zcwf_lblLeft * {
   box-sizing: border-box;
 }
@@ -20,18 +30,27 @@ body {
 .zcwf_lblLeft .zcwf_title {
   word-wrap: break-word;
   padding: 0px 6px 10px;
-  font-weight: bold;
+  /* padding: 0px 10px; */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-align: center;
 }
 .zcwf_lblLeft .zcwf_col_fld input[type="text"],
-.zcwf_lblLeft .zcwf_col_fld textarea {
-  width: 60%;
-  border: 1px solid #ccc !important;
+.zcwf_lblLeft .zcwf_col_fld input[type="email"],
+.zcwf_lblLeft .zcwf_col_fld textarea .zcwf_lblLeft .zcwf_col_fld select {
+  /* width: 60%; */
+  width: 100%;
+  border: 0 !important;
   resize: vertical;
-  border-radius: 2px;
+  border-radius: 0;
   float: left;
+  padding: 0.5rem;
 }
 .zcwf_lblLeft .zcwf_col_lab {
-  width: 30%;
+  width: 100%;
   word-break: break-word;
   padding: 0px 6px 0px;
   margin-right: 10px;
@@ -41,7 +60,8 @@ body {
 }
 .zcwf_lblLeft .zcwf_col_fld {
   float: left;
-  width: 68%;
+  /* width: 68%; */
+  width: 100%;
   padding: 0px 6px 0px;
   position: relative;
   margin-top: 5px;
@@ -93,7 +113,7 @@ body {
   border-radius: 50%;
 }
 .zcwf_lblLeft .zcwf_row {
-  margin: 15px 0px;
+  margin: 0;
 }
 .zcwf_lblLeft .formsubmit {
   margin-right: 5px;
@@ -105,7 +125,7 @@ body {
   width: 90%;
   color: rgb(0, 0, 0);
   font-size: 12px;
-  font-family: Tahoma;
+  font-family: Arial;
   display: inline-block;
   vertical-align: top;
   color: #333;
@@ -113,17 +133,33 @@ body {
   margin-left: 6px;
 }
 .zcwf_lblLeft .zcwf_button {
-  font-size: 12px;
-  color: #333;
-  border: 1px solid #ccc;
-  padding: 3px 9px;
-  border-radius: 4px;
   cursor: pointer;
-  max-width: 120px;
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  background: #ffffff;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  border: 1px solid #fff;
+  letter-spacing: 4px;
+  margin-top: 0.5rem;
 }
+
+.zcwf_lblLeft .zcwf_button:hover {
+  color: #ffffff;
+  background: transparent;
+}
+
+.zcwf_lblLeft .zcwf_button:focus {
+  outline: 0;
+  color: #ffffff;
+  background: transparent;
+}
+
 .zcwf_lblLeft .zcwf_tooltip_over {
   position: relative;
 }
