@@ -18,7 +18,7 @@ class Contact extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md-4">
-                <div className="formwraper1">
+                <div className="formwraper">
                   <h3 className="lead text-white">Interested to Know More?</h3>
                   <ul>
                     <li>• Choose from 1, 2 & 3 BR Apartments</li>

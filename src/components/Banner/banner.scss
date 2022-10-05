@@ -62,22 +62,22 @@
       box-shadow: none;
     }
   }
-  // .formwraper {
-  //   // background: rgba(0, 0, 0, 0.4);
-  //   // filter: blur(3px);
-  //   border-radius: 5px;
-  //   color: #fff;
-  //   padding: 1.5rem;
-  //   height: 100%;
-  // }
-  .formwraper1 {
+  .formwraper {
     background: rgba(0, 0, 0, 0.4);
     // filter: blur(3px);
     border-radius: 5px;
     color: #fff;
     padding: 1.5rem;
-    // height: 100%;
+    height: 100%;
   }
+  // .formwraper1 {
+  //   background: rgba(0, 0, 0, 0.4);
+  //   // filter: blur(3px);
+  //   border-radius: 5px;
+  //   color: #fff;
+  //   padding: 1.5rem;
+  //   // height: 100%;
+  // }
   .enquireform {
     .form-group {
       @media (max-width: 767px) {
